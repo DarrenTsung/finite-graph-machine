@@ -1,11 +1,11 @@
-using DT;
+
 using NUnit.Framework;
 using NSubstitute;
 using System.Collections;
 using UnityEditor;
 using UnityEngine;
 
-namespace DT.GameEngine {
+namespace DTFiniteGraphMachine {
   public class TransitionConditionSerializerTests {
     [TestCase("Key", 5, true)]
     [TestCase("Key", 0, false)]

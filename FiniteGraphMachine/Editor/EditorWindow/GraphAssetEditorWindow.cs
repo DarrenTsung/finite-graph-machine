@@ -1,13 +1,13 @@
-using DT;
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-namespace DT.GameEngine {
+namespace DTFiniteGraphMachine {
   public partial class GraphAssetEditorWindow : EditorWindow {
     // PRAGMA MARK - Static
-    [MenuItem("DarrenTsung/Graph Editor")]
+    [MenuItem("Window/Graph Editor")]
     public static void ShowWindow() {
       GraphAssetEditorWindow window = EditorWindow.GetWindow(typeof(GraphAssetEditorWindow)) as GraphAssetEditorWindow;
       window.Show();

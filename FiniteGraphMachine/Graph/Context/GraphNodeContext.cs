@@ -1,8 +1,7 @@
-using DT;
 using System;
 using System.Collections;
 
-namespace DT.GameEngine {
+namespace DTFiniteGraphMachine {
   public class GraphNodeContext : IGraphNodeContext {
     // PRAGMA MARK - IGraphNodeContext Implementation
     public bool IsActive {

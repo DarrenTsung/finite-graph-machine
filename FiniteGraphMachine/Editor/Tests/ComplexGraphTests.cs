@@ -1,4 +1,4 @@
-using DT;
+
 using NSubstitute;
 using NUnit.Framework;
 using System.Collections;
@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-namespace DT.GameEngine {
+namespace DTFiniteGraphMachine {
   public class ComplexGraphTests {
     [Test]
     public void MultipleTransitions_HappenCorrectly() {

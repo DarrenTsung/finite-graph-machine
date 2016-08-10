@@ -1,8 +1,7 @@
-using DT;
 using System;
 using System.Collections;
 
-namespace DT.GameEngine {
+namespace DTFiniteGraphMachine {
   public interface INode {
     event Action OnEnter;
     event Action OnExit;

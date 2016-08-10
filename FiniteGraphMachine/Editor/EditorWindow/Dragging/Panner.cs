@@ -1,8 +1,8 @@
-using DT;
+
 using System.Collections;
 using UnityEngine;
 
-namespace DT.GameEngine {
+namespace DTFiniteGraphMachine {
   public class Panner : IDragDelegate {
     public Vector2 Position {
       get { return this._currentPanPosition; }

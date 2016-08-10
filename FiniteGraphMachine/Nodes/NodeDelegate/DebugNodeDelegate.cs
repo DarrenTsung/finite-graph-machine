@@ -1,8 +1,7 @@
-using DT;
 using System.Collections;
 using UnityEngine;
 
-namespace DT.GameEngine {
+namespace DTFiniteGraphMachine {
   public class DebugNodeDelegate : INodeDelegate {
     // PRAGMA MARK - INodeDelegate Implementation
     public void HandleEnter() {

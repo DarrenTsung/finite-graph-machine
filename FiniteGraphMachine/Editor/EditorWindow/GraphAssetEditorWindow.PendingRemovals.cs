@@ -1,10 +1,10 @@
-using DT;
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-namespace DT.GameEngine {
+namespace DTFiniteGraphMachine {
   public partial class GraphAssetEditorWindow : EditorWindow {
     // PRAGMA MARK - Internal
     private List<Tuple<Node, NodeTransition>> _pendingNodeTransitionRemovals = new List<Tuple<Node, NodeTransition>>();

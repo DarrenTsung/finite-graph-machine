@@ -1,8 +1,7 @@
-using DT;
 using System.Collections;
 using UnityEngine;
 
-namespace DT.GameEngine {
+namespace DTFiniteGraphMachine {
   public class NodeDragger : IDragDelegate {
     public NodeDragger(NodeViewData nodeViewData, IGrid grid) {
       this._nodeViewData = nodeViewData;

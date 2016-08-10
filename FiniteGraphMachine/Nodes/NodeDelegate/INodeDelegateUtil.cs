@@ -1,9 +1,8 @@
-using DT;
 using System;
 using System.Collections;
 using System.Linq;
 
-namespace DT.GameEngine {
+namespace DTFiniteGraphMachine {
   public static class INodeDelegateUtil {
     // PRAGMA MARK - Static Public Interface
     public static Type[] ImplementationTypes {

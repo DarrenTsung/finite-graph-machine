@@ -1,8 +1,7 @@
-using DT;
 using System;
 using System.Collections;
 
-namespace DT.GameEngine {
+namespace DTFiniteGraphMachine {
   [Serializable]
   public struct NodeId : IComparable<NodeId> {
     // PRAGMA MARK - Static

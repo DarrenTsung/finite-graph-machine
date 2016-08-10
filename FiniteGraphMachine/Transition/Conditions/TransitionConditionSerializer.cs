@@ -1,11 +1,10 @@
-using DT;
 using System;
 using System.Collections;
 using System.Linq;
 using System.Reflection;
 using UnityEngine;
 
-namespace DT.GameEngine {
+namespace DTFiniteGraphMachine {
   public static class TransitionConditionSerializer {
     public static string Serialize(ITransitionCondition condition) {
       if (condition == null) {

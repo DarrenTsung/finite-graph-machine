@@ -1,7 +1,6 @@
-using DT;
 using System.Collections;
 
-namespace DT.GameEngine {
+namespace DTFiniteGraphMachine {
   public interface INodeDelegate : IDeepClonable<INodeDelegate> {
     void HandleEnter();
     void HandleExit();

@@ -1,10 +1,10 @@
-using DT;
+
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace DT.GameEngine {
+namespace DTFiniteGraphMachine {
   [Serializable]
   public class NodeData {
     // PRAGMA MARK - Static Public Interface

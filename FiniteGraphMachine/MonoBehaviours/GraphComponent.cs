@@ -1,9 +1,8 @@
-using DT;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace DT.GameEngine {
+namespace DTFiniteGraphMachine {
   public class GraphComponent : MonoBehaviour {
     // PRAGMA MARK - Public Interface
     [Header("Properties")]

@@ -1,11 +1,10 @@
-using DT;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-namespace DT.GameEngine {
+namespace DTFiniteGraphMachine {
   [Serializable]
   public class GraphData : ISerializationCallbackReceiver {
     // PRAGMA MARK - Static Public Interface

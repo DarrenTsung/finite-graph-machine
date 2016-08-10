@@ -1,10 +1,10 @@
-using DT;
+
 using NUnit.Framework;
 using System.Collections;
 using UnityEditor;
 using UnityEngine;
 
-namespace DT.GameEngine {
+namespace DTFiniteGraphMachine {
   public class GraphContextTests {
     [Test]
     public void HasParameterKey_ReturnsTrue_WhenInStartingContextParameters_ElseFalse() {

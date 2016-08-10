@@ -1,9 +1,8 @@
-using DT;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace DT.GameEngine {
+namespace DTFiniteGraphMachine {
   [Serializable]
   public class NodeTransition {
     public static NodeTransition DeepClone(NodeTransition nt) {

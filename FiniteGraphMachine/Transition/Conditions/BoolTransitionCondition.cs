@@ -1,9 +1,8 @@
-using DT;
 using System;
 using System.Collections;
 using UnityEngine;
 
-namespace DT.GameEngine {
+namespace DTFiniteGraphMachine {
   [Serializable]
   public class BoolTransitionCondition : TransitionCondition {
     // PRAGMA MARK - ITransitionCondition Implementation

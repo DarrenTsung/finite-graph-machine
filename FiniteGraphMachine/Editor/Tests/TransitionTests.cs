@@ -1,4 +1,4 @@
-using DT;
+
 using NUnit.Framework;
 using NSubstitute;
 using System.Collections;
@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-namespace DT.GameEngine {
+namespace DTFiniteGraphMachine {
   public class TransitionTests {
     [Test]
     public void NoTransitionConditions_TakenImmediately() {

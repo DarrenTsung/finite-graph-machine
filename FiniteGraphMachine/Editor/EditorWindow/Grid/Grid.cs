@@ -1,8 +1,8 @@
-using DT;
+
 using System.Collections;
 using UnityEngine;
 
-namespace DT.GameEngine {
+namespace DTFiniteGraphMachine {
   public class Grid : IGrid {
     // PRAGMA MARK - Public Interface
     public Grid(int lineSpacing) {

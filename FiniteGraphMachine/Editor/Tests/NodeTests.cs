@@ -1,10 +1,10 @@
-using DT;
+
 using NUnit.Framework;
 using System.Collections;
 using UnityEditor;
 using UnityEngine;
 
-namespace DT.GameEngine {
+namespace DTFiniteGraphMachine {
   public class NodeTests {
     [Test]
     public void Id_IsSameAsConstructed() {

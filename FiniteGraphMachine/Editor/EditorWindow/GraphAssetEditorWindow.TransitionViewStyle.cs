@@ -1,11 +1,11 @@
-using DT;
+
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEditor;
 using UnityEngine;
 
-namespace DT.GameEngine {
+namespace DTFiniteGraphMachine {
   public partial class GraphAssetEditorWindow : EditorWindow {
     private enum TransitionViewStyle {
       NORMAL = 1,

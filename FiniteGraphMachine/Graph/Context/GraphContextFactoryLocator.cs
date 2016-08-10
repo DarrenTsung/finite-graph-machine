@@ -1,8 +1,7 @@
-using DT;
 using System;
 using System.Collections;
 
-namespace DT.GameEngine {
+namespace DTFiniteGraphMachine {
   public static class GraphContextFactoryLocator {
     // PRAGMA MARK - Static
     private static IGraphContextFactory _factory;
